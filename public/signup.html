@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-up</title>
+  <style>
+    h1{
+        text-align: center;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: yellowgreen;
+    }
+
+    form {
+      max-width: 600px;
+      margin: auto;
+    }
+
+    fieldset {
+      margin-bottom: 20px;
+      padding: 15px;
+      border: 1px solid #ddd;
+    }
+
+    legend {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+    <h1>Hey ! Please Sign-up Here.. ❤️</h1>
+  <form>
+    <fieldset>
+      <legend>Personal Information Details:</legend>
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required>
+
+      <label for="middleName">Middle Name:</label>
+      <input type="text" id="middleName" name="middleName">
+
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" required>
+
+      <label for="phoneNumber">Phone Number:</label>
+      <input type="tel" id="phoneNumber" name="phoneNumber" required>
+
+      <label for="email">Email-Id</label>
+      <input type="text" id="email" name="email" required>
+
+      <label for="passward">Enter Passward:</label>
+      <input type="password" id="pass" name="pass" required>
+    </fieldset>
+
+    <!-- <fieldset>
+      <legend>Education Details Here:</legend>
+      <label for="10th">10th Percentage:</label>
+      <input type="text" id="10th" name="10th" required>
+
+      <label for="12th">12th Percentage:</label>
+      <input type="text" id="12th" name="12th" required>
+
+      <label for="graduation">Graduation Percentage</label>
+      <input type="text" id="graduation" name="graduation" required>
+
+      <label for="others">Other Education:</label>
+      <input type="text" id="others" name="others">
+    </fieldset>
+
+    <fieldset>
+      <legend>Experience (in months)</legend>
+      <label for="experience">Total Experience:</label>
+      <input type="number" id="experience" name="experience" min="0" required>
+    </fieldset> -->
+
+    <button type="submit">Submit Application</button>
+    <button type="back"><a href="../index.html" style="text-decoration: none" style="color:aqua">Back</a></button>
+  </form>
+
+</body>
+</html>
